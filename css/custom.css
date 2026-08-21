@@ -1,9 +1,10 @@
 :root {
-    --accent: #1e3a5f;
-    --accent-hover: #152a45;
-    --surface: #f8f9fa;
+    --accent: #ff5a5f;
+    --accent-hover: #e04e53;
+    --accent-light: #ffd6d8;
+    --surface: #fff8f8;
     --text-muted: #6c757d;
-    --border-light: #e9ecef;
+    --border-light: #ffd4d6;
 }
 
 html {
@@ -23,7 +24,7 @@ a:hover {
 }
 
 .navbar {
-    background-color: #dc3545 !important;
+    background-color: var(--accent) !important;
 }
 
 .navbar-brand {
@@ -45,7 +46,7 @@ a:hover {
     height: 180px;
     object-fit: cover;
     flex-shrink: 0;
-    border: 3px solid var(--border-light);
+    border: 3px solid var(--accent-light);
 }
 
 .hero-intro {
@@ -91,6 +92,12 @@ a:hover {
 .btn-outline-primary:focus {
     background-color: var(--accent);
     border-color: var(--accent);
+    color: #fff;
+}
+
+.btn-primary:focus,
+.btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 90, 95, 0.25);
 }
 
 .section-title {
@@ -199,7 +206,7 @@ a:hover {
 }
 
 footer {
-    background-color: #dc3545 !important;
+    background-color: var(--accent) !important;
 }
 
 section {
