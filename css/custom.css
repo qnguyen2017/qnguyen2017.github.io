@@ -40,6 +40,18 @@ a:hover {
     border: 1px solid var(--border-light);
 }
 
+.profile-photo {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 3px solid var(--border-light);
+}
+
+.hero-intro {
+    flex: 1;
+}
+
 .hero-label {
     color: var(--accent);
     font-size: 0.85rem;
@@ -50,6 +62,13 @@ a:hover {
 .hero-tagline {
     max-width: 42rem;
     color: #495057;
+}
+
+@media (min-width: 768px) {
+    .hero-tagline {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .btn-primary {
@@ -190,5 +209,12 @@ section {
 @media (max-width: 991.98px) {
     .hero-tagline {
         font-size: 1.1rem !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .profile-photo {
+        width: 150px;
+        height: 150px;
     }
 }
