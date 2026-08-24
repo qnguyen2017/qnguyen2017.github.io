@@ -44,33 +44,33 @@
       {
         "icon": "bi-globe",
         "title": "Web & API",
-        "items": "ASP.NET, .NET Core, Angular, React, TypeScript, Node.js, NestJS, Web API, GraphQL"
+        "items": "ASP.NET, .NET Core, Java, Kotlin, Spring, Angular, React, TypeScript, GraphQL, Web API"
+      },      
+      {
+        "icon": "bi-database",
+        "title": "Data & Cloud",
+        "items": "SQL, PostgreSQL, MongoDB, Redis, Azure, AWS, Azure DevOps, Power BI"
+      },
+      {
+        "icon": "bi-tools",
+        "title": "Practices & Tools",
+        "items": "SOLID, Docker, Kubernetes, RabbitMQ, Kafka, Selenium, Git"
       },
       {
         "icon": "bi-phone",
         "title": "Mobile",
         "items": "Native Android (Java), iOS (Swift), React Native, Xamarin"
-      },
-      {
-        "icon": "bi-database",
-        "title": "Data & Cloud",
-        "items": "SQL, MySQL, MongoDB, Redis, Azure, AWS, Azure DevOps, SSIS"
-      },
-      {
-        "icon": "bi-tools",
-        "title": "Practices & Tools",
-        "items": "SOLID, IoC, Docker, Kubernetes, RabbitMQ, NUnit, Selenium, TeamCity, Git"
       }
     ],
     "tags": [
-      "TypeScript",
+      "Angular",
       "Spring Framework",
-      "Power BI",
-      "SSRS",
+      "React",
+      "MongoDB",
       "GraphQL",
       "Redux",
       "Python",
-      "Kubernetes"
+      ".Net Core"
     ]
   },
   "experience": {
@@ -145,18 +145,20 @@
     ],
     "footnote": "Earlier roles at Novasys Technologies, Sparkhound, ContentActive, and Fujitsu Network Communications — see resume for full history."
   },
-  "projects": [
+  "projects": [    
     {
-      "icon": "bi-window",
-      "title": "Customer Portal — Web",
-      "description": "Full-featured portal for customer registration via email, Facebook, or Google; account management, purchases, document uploads, billing, and usage reports. Built end-to-end.",
-      "tech": "Angular, RxJS, NgRx, Material UI, Web API, OAuth2, Windows Service"
+      "icon": "bi-file-earmark-person",
+      "title": "Resume Builder",
+      "description": "Personal portfolio and resume site powered by a centralized JSON data file. Update content without touching layout code, with automated build and deploy to GitHub Pages.",
+      "tech": "React, Redux, Socket.io, Semantic UI, MongoDB, Express.js",
+      "url": "https://resume-builder-mvoq.onrender.com/"
     },
     {
-      "icon": "bi-phone",
-      "title": "Customer Portal — Mobile",
-      "description": "Native Android and iOS apps with the same core features as the web portal, plus camera access, QR scanning, and push notifications. Built end-to-end in Java and Swift.",
-      "tech": "Java, Swift, SQLite, Core Data, OAuth2, Android Studio, Xcode"
+      "icon": "bi-graph-up-arrow",
+      "title": "Stock Ticker",
+      "description": "Web app for tracking stock symbols, viewing price changes, and managing a personal watchlist with a clean dashboard interface.",
+      "tech": "React, .NET Core Web API, Chart.js",
+      "url": "https://stock-ticker-1cux.onrender.com/"
     }
   ],
   "contact": {

@@ -16,6 +16,16 @@ export default function Projects({ items }) {
                   <p className="tech-stack mb-0">
                     <strong>Tech:</strong> {project.tech}
                   </p>
+                  {project.url && (
+                    <a
+                      href={project.url}
+                      className="btn btn-outline-primary btn-sm mt-3"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Project <i className="bi bi-box-arrow-up-right ms-1"></i>
+                    </a>
+                  )}
                 </div>
               </div>
             </div>
