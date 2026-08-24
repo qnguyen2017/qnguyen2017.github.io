@@ -31,8 +31,8 @@ export default function App() {
       <main>
         <About {...data.about} />
         <Skills {...data.skills} />
-        <Experience {...data.experience} />
         <Projects items={data.projects} />
+        <Experience {...data.experience} />
         <Contact {...data.contact} />
       </main>
       <Footer text={data.footer.text} />
