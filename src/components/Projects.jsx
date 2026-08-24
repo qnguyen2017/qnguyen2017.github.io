@@ -1,0 +1,27 @@
+export default function Projects({ items }) {
+  return (
+    <section id="projects" className="py-5 bg-surface">
+      <div className="container px-lg-5">
+        <h2 className="section-title mb-5 text-center">Projects</h2>
+        <div className="row gx-lg-5 justify-content-center">
+          {items.map((project) => (
+            <div className="col-lg-6 mb-4" key={project.title}>
+              <div className="card project-card h-100">
+                <div className="card-body p-4 p-lg-5">
+                  <div className="feature bg-accent text-white rounded-3 mb-4">
+                    <i className={`bi ${project.icon}`}></i>
+                  </div>
+                  <h3 className="fs-4 fw-bold">{project.title}</h3>
+                  <p className="mb-3">{project.description}</p>
+                  <p className="tech-stack mb-0">
+                    <strong>Tech:</strong> {project.tech}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}

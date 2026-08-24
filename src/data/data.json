@@ -1,0 +1,184 @@
+{
+  "site": {
+    "title": "Quan Nguyen | Software Engineer",
+    "description": "Quan Nguyen — Software Engineer and Senior Software Developer with 14+ years of enterprise development experience.",
+    "author": "Quan Nguyen",
+    "theme": {
+      "accent": "#ff5a5f",
+      "accentHover": "#e04e53",
+      "accentLight": "#ffd6d8",
+      "surface": "#fff8f8",
+      "borderLight": "#ffd4d6"
+    }
+  },
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "label": "Software Engineer",
+    "name": "Quan Nguyen",
+    "tagline": "14+ years architecting and delivering enterprise web, desktop, and mobile applications — from gas control systems to healthcare integrations.",
+    "photo": "/assets/profile-picture.jpg",
+    "photoAlt": "Quan Nguyen",
+    "buttons": [
+      { "label": "View Projects", "href": "#projects", "variant": "primary" },
+      { "label": "Download Resume", "href": "/assets/resume.pdf", "variant": "outline", "external": true }
+    ]
+  },
+  "about": {
+    "summary": "Software engineer with 14+ years in enterprise development and 3 years building native iOS, Android, and React Native apps. Experienced with front-end technologies including Angular, React, and TypeScript, cloud platforms including Azure and AWS, and the full lifecycle — database design, backend, frontend, QA, deployment, and support.",
+    "education": "B.S. Electrical Engineering, Software Engineering concentration — University of Texas at Austin, May 2011",
+    "details": [
+      { "icon": "bi-geo-alt", "text": "Houston, TX" },
+      { "icon": "bi-envelope", "text": "qhn2017@gmail.com", "href": "mailto:qhn2017@gmail.com" },
+      { "icon": "bi-telephone", "text": "832-679-9063", "href": "tel:+18326799063" },
+      { "icon": "bi-flag", "text": "US Citizen" }
+    ]
+  },
+  "skills": {
+    "categories": [
+      {
+        "icon": "bi-globe",
+        "title": "Web & API",
+        "items": "ASP.NET, .NET Core, Angular, React, TypeScript, Node.js, NestJS, Web API, GraphQL"
+      },
+      {
+        "icon": "bi-phone",
+        "title": "Mobile",
+        "items": "Native Android (Java), iOS (Swift), React Native, Xamarin"
+      },
+      {
+        "icon": "bi-database",
+        "title": "Data & Cloud",
+        "items": "SQL, MySQL, MongoDB, Redis, Azure, AWS, Azure DevOps, SSIS"
+      },
+      {
+        "icon": "bi-tools",
+        "title": "Practices & Tools",
+        "items": "SOLID, IoC, Docker, Kubernetes, RabbitMQ, NUnit, Selenium, TeamCity, Git"
+      }
+    ],
+    "tags": [
+      "TypeScript",
+      "Spring Framework",
+      "Power BI",
+      "SSRS",
+      "GraphQL",
+      "Redux",
+      "Python",
+      "Kubernetes"
+    ]
+  },
+  "experience": {
+    "items": [
+      {
+        "title": "Sr Full Stack Software Engineer",
+        "company": "SLB",
+        "location": "Houston, TX",
+        "dates": "Jul 2022 – Present",
+        "logo": "/assets/slb_logo.jpg",
+        "logoAlt": "SLB logo",
+        "bullets": [
+          "Support a wide range of core microservices consumed by other drilling applications",
+          "Support reliable two-way data sync between field devices and cloud services to ensure real-time accuracy and consistency"
+        ],
+        "tech": "ASP.NET, Angular, MongoDB, GraphQL, RabbitMQ, Azure, Spring, Java, Kafka"
+      },
+      {
+        "title": "Senior Application Specialist",
+        "company": "Enbridge",
+        "location": "Houston, TX",
+        "dates": "Nov 2019 – Jul 2022",
+        "logo": "/assets/enbridge_logo.jpg",
+        "logoAlt": "Enbridge logo",
+        "bullets": [
+          "Develop and support several Angular web apps for gas control rooms in the US and Canada",
+          "Create data migration jobs and Power BI reports for users",
+          "Work across the full dev cycle: database, backend, frontend, QA, deployment, and support"
+        ],
+        "tech": "C#, ASP.NET, Angular, React, SQL, MongoDB, .NET Core, SSIS, Azure DevOps"
+      },
+      {
+        "title": "Senior Application Developer",
+        "company": "Spark Energy",
+        "location": "Houston, TX",
+        "dates": "Jun 2019 – Nov 2019",
+        "logo": "/assets/spark_energy_logo.jpg",
+        "logoAlt": "Spark Energy logo",
+        "bullets": [
+          "Architected and led development of a new billing system with modern software practices",
+          "Maintained customer enrollment and billing applications built in Java and Spring Framework",
+          "Developed new customer dashboard using React, Redux, and .NET Core API"
+        ],
+        "tech": "C#, Java, ASP.NET, Angular, React, Redux, Express.js, WPF, WCF, SQL"
+      },
+      {
+        "title": "Application System Analyst",
+        "company": "MD Anderson",
+        "location": "Houston, TX",
+        "dates": "May 2018 – Jun 2019",
+        "logo": "/assets/md_anderson_logo.jpg",
+        "logoAlt": "MD Anderson logo",
+        "bullets": [
+          "Developed multiple web applications and APIs integrating with the Epic healthcare system",
+          "Developed patient portal web app using Angular and Express.js"
+        ],
+        "tech": "Angular, Java, React, MongoDB, Express.js, SQL, Web API, .NET Core"
+      },
+      {
+        "title": "Senior .NET & Mobile App Developer",
+        "company": "The Go Solutions",
+        "location": "Houston, TX",
+        "dates": "May 2016 – May 2018",
+        "bullets": [
+          "Led and mentored a team of 4 developers",
+          "Developed Windows Services, SSRS reports, ASP.NET MVC, and Angular applications",
+          "Built native Android and iOS apps and containerized microservices using Docker",
+          "Built TeamCity server and created build templates for automated tests, builds, and deployments"
+        ],
+        "tech": "Java, Swift, Web API, Docker, WCF, SSRS, ASP.NET MVC"
+      }
+    ],
+    "footnote": "Earlier roles at Novasys Technologies, Sparkhound, ContentActive, and Fujitsu Network Communications — see resume for full history."
+  },
+  "projects": [
+    {
+      "icon": "bi-window",
+      "title": "Customer Portal — Web",
+      "description": "Full-featured portal for customer registration via email, Facebook, or Google; account management, purchases, document uploads, billing, and usage reports. Built end-to-end.",
+      "tech": "Angular, RxJS, NgRx, Material UI, Web API, OAuth2, Windows Service"
+    },
+    {
+      "icon": "bi-phone",
+      "title": "Customer Portal — Mobile",
+      "description": "Native Android and iOS apps with the same core features as the web portal, plus camera access, QR scanning, and push notifications. Built end-to-end in Java and Swift.",
+      "tech": "Java, Swift, SQLite, Core Data, OAuth2, Android Studio, Xcode"
+    }
+  ],
+  "contact": {
+    "headline": "Open to senior software development opportunities.",
+    "links": [
+      { "icon": "bi-envelope", "label": "qhn2017@gmail.com", "href": "mailto:qhn2017@gmail.com" },
+      { "icon": "bi-telephone", "label": "832-679-9063", "href": "tel:+18326799063" },
+      {
+        "icon": "bi-linkedin",
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/quan-nguyen2017/",
+        "external": true
+      },
+      {
+        "icon": "bi-file-earmark-pdf",
+        "label": "Download Resume",
+        "href": "/assets/resume.pdf",
+        "external": true
+      }
+    ]
+  },
+  "footer": {
+    "text": "© 2026 Quan Nguyen · Houston, TX"
+  }
+}
