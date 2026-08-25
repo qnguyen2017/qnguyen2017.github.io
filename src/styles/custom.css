@@ -114,8 +114,23 @@ a:hover {
     background-color: var(--accent) !important;
 }
 
-.skill-card,
 .project-card {
+    border: 1px solid var(--border-light);
+    box-shadow: none;
+    background: #fff;
+    overflow: hidden;
+}
+
+.project-thumbnail {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.skill-card {
     border: 1px solid var(--border-light);
     box-shadow: none;
     background: #fff;

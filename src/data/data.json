@@ -21,7 +21,7 @@
   "hero": {
     "label": "Software Engineer",
     "name": "Quan Nguyen",
-    "tagline": "14+ years architecting and delivering enterprise web, desktop, and mobile applications — from gas control systems to healthcare integrations.",
+    "tagline": "10+ years architecting and delivering enterprise web, desktop, and mobile applications — from gas control systems to healthcare integrations.",
     "photo": "/assets/profile-picture.jpg",
     "photoAlt": "Quan Nguyen",
     "buttons": [
@@ -149,16 +149,18 @@
     {
       "icon": "bi-file-earmark-person",
       "title": "Resume Builder",
-      "description": "Personal portfolio and resume site powered by a centralized JSON data file. Update content without touching layout code, with automated build and deploy to GitHub Pages.",
+      "description": "A tool to build beautiful clean resumes with pre-defined templates. User can export their resume as Pdf",
       "tech": "React, Redux, Socket.io, Semantic UI, MongoDB, Express.js",
-      "url": "https://resume-builder-mvoq.onrender.com/"
+      "url": "https://resume-builder-mvoq.onrender.com/",
+      "thumbnail": "/assets/resume-builder-thumbnail.png"
     },
     {
       "icon": "bi-graph-up-arrow",
       "title": "Stock Ticker",
       "description": "Web app for tracking stock symbols, viewing price changes, and managing a personal watchlist with a clean dashboard interface.",
       "tech": "React, .NET Core Web API, Chart.js",
-      "url": "https://stock-ticker-1cux.onrender.com/"
+      "url": "https://stock-ticker-1cux.onrender.com/",
+      "thumbnail": "/assets/stock-ticker-thumbnail.png"
     }
   ],
   "contact": {

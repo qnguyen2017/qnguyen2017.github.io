@@ -7,10 +7,19 @@ export default function Projects({ items }) {
           {items.map((project) => (
             <div className="col-lg-6 mb-4" key={project.title}>
               <div className="card project-card h-100">
+                {project.thumbnail && (
+                  <img
+                    src={project.thumbnail}
+                    alt={`${project.title} preview`}
+                    className="project-thumbnail"
+                  />
+                )}
                 <div className="card-body p-4 p-lg-5">
-                  <div className="feature bg-accent text-white rounded-3 mb-4">
-                    <i className={`bi ${project.icon}`}></i>
-                  </div>
+                  {!project.thumbnail && (
+                    <div className="feature bg-accent text-white rounded-3 mb-4">
+                      <i className={`bi ${project.icon}`}></i>
+                    </div>
+                  )}
                   <h3 className="fs-4 fw-bold">{project.title}</h3>
                   <p className="mb-3">{project.description}</p>
                   <p className="tech-stack mb-0">
