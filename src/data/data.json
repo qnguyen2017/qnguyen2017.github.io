@@ -45,7 +45,7 @@
       {
         "icon": "bi-globe",
         "title": "Web & API",
-        "items": "ASP.NET, .NET Core, Angular, React, Node.js, SignalR, Redux, NgRx, GraphQL, Web API, WCF"
+        "items": "ASP.NET, .NET Core, Java, Spring,Angular, React, Node.js, SignalR, Redux, NgRx, GraphQL, Web API, WCF"
       },
       {
         "icon": "bi-database",
@@ -67,11 +67,11 @@
       "Java",
       "Kotlin",
       "Spring Framework",
-      "Python",
-      "Power BI",
-      "SSRS",
-      "Crystal Reports",
-      "Socket.io"
+      "Azure",
+      "AWS",
+      "QraphQL",
+      "Kafka",
+      "React"
     ]
   },
   "experience": {
@@ -86,12 +86,12 @@
         "bullets": [
           "Designed and developed scalable full-stack applications and core microservices for SLB's DrillOps platform, consumed by multiple drilling applications",
           "Designed and supported reliable two-way communication between remote drilling rigs and cloud-based services, ensuring real-time data exchange while handling intermittent connectivity and data consistency",
-          "Developed complex, dynamic front-end applications using Angular, React, and NgRx",
+          "Developed complex, dynamic front-end applications using Angular, React, and NgRx, GraphQL",
           "Designed and integrated AI-powered workflows and agent-based automation leveraging LLMs to automate multi-step tasks and streamline engineering workflows",
           "Delivered measurable improvements in system performance through query and index optimization, caching, parallel processing, and message payload compression",
           "Acted as a go-to technical resource for core applications, resolving complex production issues and mentoring fellow developers"
         ],
-        "tech": ".NET, Angular, MongoDB, Redis, Azure Blob Storage, Java, Spring, Kafka, AWS"
+        "tech": ".NET, Angular, MongoDB, Redis, GraphQL, Azure Blob Storage, Java, Spring, Kafka, AWS"
       },
       {
         "title": "Senior Application Specialist",
