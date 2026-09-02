@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Quan Nguyen | Software Engineer",
-    "description": "Quan Nguyen — Senior Software Developer with 10+ years of enterprise development experience across oil & gas, healthcare, and banking.",
+    "title": "Quan Nguyen | Senior Full Stack Engineer",
+    "description": "Quan Nguyen — Senior Software Engineer with 10+ years building distributed systems, backend services, and full-stack applications across energy, healthcare, and financial services.",
     "author": "Quan Nguyen",
     "theme": {
       "accent": "#ff5a5f",
@@ -19,7 +19,7 @@
     { "label": "Contact", "href": "#contact" }
   ],
   "hero": {
-    "label": "Software Engineer",
+    "label": "Senior Full Stack Engineer",
     "name": "Quan Nguyen",
     "tagline": "Hi, I'm Quan. I'm glad you dropped by and I hope to connect with you soon.",
     "photo": "/assets/profile-picture-current.jpg",
@@ -30,8 +30,8 @@
     ]
   },
   "about": {
-    "summary": "Software engineer with 10+ years in enterprise development across diverse industries (oil & gas, healthcare, banking). Experienced developing front end (React, Angular) and backend (Java, C#), applying AI/LLM to development including AI agents and workflow automation, and working across the full lifecycle — database design, backend, frontend, QA, deployment, and support.",
-    "education": "B.S. Electrical Engineering, Software Engineering concentration — University of Texas at Austin, May 2011",
+    "summary": "Senior Software Engineer with 10+ years of experience building distributed systems, backend services, and full-stack applications across energy, healthcare, and financial services. Strong expertise in C#/.NET and Java, microservices, cloud platforms (Azure, AWS), messaging systems, and database performance optimization. Recent focus on AI/LLM-powered automation and agentic workflows.",
+    "education": "B.S. Electrical Engineering — University of Texas at Austin, May 2011",
     "details": [
       { "icon": "bi-geo-alt", "text": "Houston, TX" },
       { "icon": "bi-envelope", "text": "qhn2017@gmail.com", "href": "mailto:qhn2017@gmail.com" },
@@ -43,35 +43,35 @@
   "skills": {
     "categories": [
       {
+        "icon": "bi-server",
+        "title": "Backend & API",
+        "items": ".NET, ASP.NET, Spring Boot, REST API, GraphQL, Microservices, Kafka, RabbitMQ, SignalR"
+      },
+      {
         "icon": "bi-globe",
-        "title": "Web & API",
-        "items": "ASP.NET, .NET Core, Java, Spring,Angular, React, Node.js, SignalR, Redux, NgRx, GraphQL, Web API, WCF"
+        "title": "Frontend",
+        "items": "React, Angular, Redux, NgRx"
       },
       {
         "icon": "bi-database",
         "title": "Data & Cloud",
-        "items": "SQL, PostgreSQL, MongoDB, Redis, SQLite, Azure, Azure Blob, Azure IoT Hub, AWS, S3"
+        "items": "MongoDB, PostgreSQL, SQL, Redis, Azure, Azure Blob, Azure IoT Hub, AWS, S3"
       },
       {
-        "icon": "bi-tools",
-        "title": "Practices & Tools",
-        "items": "Docker, Kubernetes, RabbitMQ, Kafka, Selenium, Jest, Git, Kibana, Grafana, Prometheus"
-      },
-      {
-        "icon": "bi-phone",
-        "title": "Mobile & Desktop",
-        "items": "Native Android, iOS (Swift), React Native, Xamarin, WPF, WinForms"
+        "icon": "bi-code-slash",
+        "title": "Languages & Tools",
+        "items": "Java, C#, Python, Kotlin, NUnit, Jasmine, Jest, Prometheus, Grafana, Kibana"
       }
     ],
     "tags": [
       "Java",
+      "C#",
       "Kotlin",
-      "Spring Framework",
-      "Azure",
-      "AWS",
-      "QraphQL",
+      "Spring Boot",
+      "GraphQL",
       "Kafka",
-      "React"
+      "React",
+      "Angular"
     ]
   },
   "experience": {
@@ -84,14 +84,14 @@
         "logo": "/assets/slb_logo.jpg",
         "logoAlt": "SLB logo",
         "bullets": [
-          "Designed and developed scalable full-stack applications and core microservices for SLB's DrillOps platform, consumed by multiple drilling applications",
-          "Designed and supported reliable two-way communication between remote drilling rigs and cloud-based services, ensuring real-time data exchange while handling intermittent connectivity and data consistency",
-          "Developed complex, dynamic front-end applications using Angular, React, and NgRx, GraphQL",
-          "Designed and integrated AI-powered workflows and agent-based automation leveraging LLMs to automate multi-step tasks and streamline engineering workflows",
-          "Delivered measurable improvements in system performance through query and index optimization, caching, parallel processing, and message payload compression",
-          "Acted as a go-to technical resource for core applications, resolving complex production issues and mentoring fellow developers"
+          "Contributed to the development of core DrillOps platform, building shared microservices that support essential drilling workflows across multiple downstream applications",
+          "Led full-stack development of Spectrogram and BHA Runs Manager as primary contributor on a 20-person team — enabling real-time MWD signal troubleshooting and centralized BHA run lifecycle management",
+          "Implemented message batching/optimization, cloud-to-device command routing, and multi-deployment support across Prism environments, reducing outbound traffic and enabling secure command delivery",
+          "Implemented Trajectory Throttler to manage rapid trajectory update spikes (~1 update per 10ms), reducing system traffic by ~99% during data aggregation without affecting data quality",
+          "Built an AI-powered developer knowledge assistant consolidating PDFs, wikis, user stories, and technical documentation for natural-language engineering queries",
+          "Served as a technical owner and go-to engineer for core Town/DrillOps services, resolving complex production issues and mentoring engineers across the team"
         ],
-        "tech": ".NET, Angular, MongoDB, Redis, GraphQL, Azure Blob Storage, Java, Spring, Kafka, AWS"
+        "tech": ".NET, Java, Angular, React, MongoDB, Redis, GraphQL, Azure Blob, Spring, Kafka, AWS"
       },
       {
         "title": "Senior Application Specialist",
@@ -101,9 +101,9 @@
         "logo": "/assets/enbridge_logo.jpg",
         "logoAlt": "Enbridge logo",
         "bullets": [
-          "Developed and supported several web apps for gas control rooms in the US and Canada",
-          "Created data migration jobs and reports for users",
-          "Worked across the full dev cycle: database, backend, frontend, QA, deployment, and support"
+          "Supported and enhanced multiple business-critical control-room apps, including Scheduler and Shift Log, used by gas operations teams across the U.S. and Canada",
+          "Modernized legacy ASP.NET Web Forms applications by rebuilding frontends with Angular and React and backend services with REST APIs, improving performance, usability, and adoption",
+          "Designed and implemented an automated scheduling engine that generated efficient shift arrangements, evaluated staffing constraints, qualifications, workload, and fatigue/rest-period limits"
         ],
         "tech": "C#, ASP.NET, Angular, React, SQL, MongoDB, Azure, Java, Spring"
       },
@@ -115,9 +115,9 @@
         "logo": "/assets/spark_energy_logo.jpg",
         "logoAlt": "Spark Energy logo",
         "bullets": [
-          "Architected and led development of a new billing system with modern software practices",
-          "Built customer enrollment and billing application backends using Java and Spring Framework",
-          "Designed and developed a new customer dashboard using React and Redux"
+          "Led the buildout of a new billing platform, introducing more modern development practices during the transition",
+          "Delivered backend services for customer enrollment and billing using Java and Spring",
+          "Launched a new customer dashboard in React and Redux, giving users a more modern self-service experience"
         ],
         "tech": "Java, Spring Framework, React, Redux, PostgreSQL"
       },
@@ -129,29 +129,51 @@
         "logo": "/assets/md_anderson_logo.jpg",
         "logoAlt": "MD Anderson logo",
         "bullets": [
-          "Developed web applications and APIs integrating with the Epic healthcare system",
-          "Developed patient portal web app using Angular",
-          "Wrote Mumps/Cache code to extend and modify Epic system functionality",
-          "Earned Epic certification in Chronicles Database and InterConnect"
+          "Modernized a manual laboratory workflow by replacing paper-based notes and Excel sheets with an Angular application backed by a centralized SQL database",
+          "Extended Epic functionality through MUMPS/Cache development to support organization-specific workflows"
         ],
-        "tech": "Angular, SQL, ASP.NET Web API, Mumps/Cache"
+        "tech": "Angular, SQL, ASP.NET Web API, MUMPS/Cache"
       },
       {
-        "title": "Senior .NET & Mobile App Developer",
+        "title": "Senior Developer",
         "company": "The Go Solutions",
         "location": "Houston, TX",
         "dates": "May 2016 – May 2018",
         "bullets": [
-          "Led and mentored a team of 4 developers",
-          "Developed Windows Services, SSRS reports, ASP.NET MVC, and Angular applications",
-          "Built native Android and iOS apps and containerized microservices using Docker",
-          "Built TeamCity server and created build templates for automated tests, builds, and deployments",
-          "Setup RabbitMQ messaging to ensure reliable message delivery"
+          "Led and mentored a team of 4 developers, increasing delivery capacity across web, mobile, and service-based projects",
+          "Delivered Windows services, SSRS reports, and ASP.NET MVC and Angular applications",
+          "Built Android applications in Java and SQLite and iOS applications in Swift and Objective-C with push notifications",
+          "Built .NET Web API and WCF services enabling mobile applications to integrate with backend systems",
+          "Introduced containerized microservices with Docker and set up TeamCity with reusable build templates",
+          "Implemented RabbitMQ messaging infrastructure to support reliable message delivery between systems"
         ],
         "tech": "Java, Swift, Web API, Docker, WCF, SSRS, ASP.NET MVC, RabbitMQ"
+      },
+      {
+        "title": "Software Consultant",
+        "company": "Novasys Technologies",
+        "location": "Houston, TX",
+        "dates": "Nov 2014 – Sep 2015",
+        "bullets": [
+          "Built an ASP.NET MVC application that improved access to recorded and real-time oilfield drilling data",
+          "Created 2D and 3D real-time plotting capabilities using Dygraphs and Three.js",
+          "Delivered an equipment builder utility with Angular, Web API, and SQL"
+        ],
+        "tech": "ASP.NET MVC, Angular, Web API, SQL, Dygraphs, Three.js"
+      },
+      {
+        "title": "Software Consultant",
+        "company": "Sparkhound",
+        "location": "Houston, TX",
+        "dates": "Sep 2013 – Nov 2014",
+        "bullets": [
+          "Delivered web and desktop applications for multiple clients across varied business needs",
+          "Built domain knowledge across oil and gas, healthcare, banking, and finance"
+        ],
+        "tech": "ASP.NET MVC, AngularJS, WPF, WCF, Web API, SQL"
       }
     ],
-    "footnote": "Earlier roles at Novasys Technologies, Sparkhound, ContentActive, and Fujitsu Network Communications — see resume for full history."
+    "footnote": "Earlier roles at ContentActive and Fujitsu Network Communications — see resume for full history."
   },
   "projects": [
     {
@@ -163,20 +185,20 @@
       "thumbnail": "/assets/stock-ticker-thumbnail.png"
     },
     {
+      "icon": "bi-airplane",
+      "title": "Flight Planner",
+      "description": "A hobby project built to explore flight search ideas — routing, pricing, demand simulation, and round-trip bundling — without relying on live airline data.",
+      "tech": "Java, Spring Boot, PostgreSQL, React, Bootstrap",
+      "url": "https://flight-planner-1-zmpl.onrender.com/",
+      "thumbnail": "/assets/flight-planner-thumbnail.png"
+    },
+    {
       "icon": "bi-file-earmark-person",
       "title": "Resume Builder",
       "description": "A tool to build beautiful, clean resumes with pre-defined templates. Users can export their resume as PDF.",
       "tech": "React, Redux, Socket.io, Semantic UI, MongoDB, Express.js",
       "url": "https://resume-builder-mvoq.onrender.com/",
       "thumbnail": "/assets/resume-builder-thumbnail.png"
-    },
-    {
-      "icon": "bi-airplane",
-      "title": "Flight Planner",
-      "description": "Flight Planner is a hobby project built to explore flight search ideas — routing, pricing, demand simulation, and round-trip bundling — without relying on live airline data.",
-      "tech": "Java, Spring Boot, PostgreSQL, React, Bootstrap",
-      "url": "https://flight-planner-1-zmpl.onrender.com/",
-      "thumbnail": "/assets/flight-planner-thumbnail.png"
     }
   ],
   "contact": {
