@@ -169,6 +169,14 @@
       "tech": "React, Redux, Socket.io, Semantic UI, MongoDB, Express.js",
       "url": "https://resume-builder-mvoq.onrender.com/",
       "thumbnail": "/assets/resume-builder-thumbnail.png"
+    },
+    {
+      "icon": "bi-airplane",
+      "title": "Flight Planner",
+      "description": "Flight Planner is a hobby project built to explore flight search ideas — routing, pricing, demand simulation, and round-trip bundling — without relying on live airline data.",
+      "tech": "Java, Spring Boot, PostgreSQL, React, Bootstrap",
+      "url": "https://flight-planner-1-zmpl.onrender.com/",
+      "thumbnail": "/assets/flight-planner-thumbnail.png"
     }
   ],
   "contact": {
