@@ -21,8 +21,8 @@
   "hero": {
     "label": "Software Engineer",
     "name": "Quan Nguyen",
-    "tagline": "10+ years architecting and delivering enterprise full-stack applications across oil & gas, healthcare, and banking — from drilling platforms to cloud microservices.",
-    "photo": "/assets/profile-picture.jpg",
+    "tagline": "Hi, I'm Quan. I'm glad you dropped by and I hope to connect with you soon.",
+    "photo": "/assets/profile-picture-current.jpg",
     "photoAlt": "Quan Nguyen",
     "buttons": [
       { "label": "View Projects", "href": "#projects", "variant": "primary" },
@@ -30,7 +30,7 @@
     ]
   },
   "about": {
-    "summary": "Software engineer with 10+ years in enterprise development across diverse industries. Experienced developing front end (React, Angular) and backend (Java, C#), applying AI/LLM to development including AI agents and workflow automation, and working across the full lifecycle — database design, backend, frontend, QA, deployment, and support.",
+    "summary": "Software engineer with 10+ years in enterprise development across diverse industries (oil & gas, healthcare, banking). Experienced developing front end (React, Angular) and backend (Java, C#), applying AI/LLM to development including AI agents and workflow automation, and working across the full lifecycle — database design, backend, frontend, QA, deployment, and support.",
     "education": "B.S. Electrical Engineering, Software Engineering concentration — University of Texas at Austin, May 2011",
     "details": [
       { "icon": "bi-geo-alt", "text": "Houston, TX" },
